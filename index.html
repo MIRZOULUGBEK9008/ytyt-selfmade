@@ -28,39 +28,63 @@
   </div>
 
   <!-- SITE-HEADER  -->
-  <header class="site-header">
-    <div class="container">
-      <div class="site-header__container">
-        <!-- LOGO  -->
-        <a class="logo site-header__logo" href="index.html">
-          <img class="logo__img" src="img/logo.svg" alt="YtYt logo" width="53" height="20">
-        </a>
-
-        <!-- NAVIGATOR  -->
-        <nav class="sitenav site-header__sitenav">
-          <ul class="sitenav__list">
-            <li class="sitenav__item">
-              <a class="sitenav__link" href="#">Чему вы научитесь</a>
-            </li>
-            <li class="sitenav__item">
-              <a class="sitenav__link" href="#">Процесс обучения</a>
-            </li>
-            <li class="sitenav__item">
-              <a class="sitenav__link" href="#">Стоимость</a>
-            </li>
-            <li class="sitenav__item">
-              <a class="sitenav__link" href="#">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="log">
-          <button class="button button--transparent">Регистрация</button>
-          <button class="button button--sky-blue">Войти</button>
+  <div class="hero-header-wrapper">
+    <header class="site-header">
+      <div class="container">
+        <div class="site-header__container">
+          <!-- LOGO  -->
+          <a class="logo site-header__logo" href="index.html">
+            <img class="logo__img" src="img/logo.svg" alt="YtYt logo" width="53" height="20">
+          </a>
+          <!-- NAVIGATOR  -->
+          <nav class="sitenav site-header__sitenav">
+            <ul class="sitenav__list">
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Чему вы научитесь</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Процесс обучения</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Стоимость</a>
+              </li>
+              <li class="sitenav__item">
+                <a class="sitenav__link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="log">
+            <button class="button button--transparent" type="button">Регистрация</button>
+            <button class="button button--sky-blue" type="button">
+              <span class="button__inner">
+                <img class="button__arrow" src="img/arrow.svg" alt="" aria-hidden="true" width="9" height="8">
+                Войти
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- HERO  -->
+    <div class="hero">
+      <div class="container">
+        <div class="hero__container">
+          <div class="hero__content">
+            <h1 class="title hero__title">Школа <span class="hero__title-programming"><b>{</b>программирования<b>}</b></span> для тех, кому нужны реальные навыки, а не просто сертификат
+            </h1>
+            <p class="hero__text">Пройдите тестирование, чтобы получить доступ к бесплатным вводным урокам
+            </p>
+            <button class="button hero__button button--orange" type="button">
+              <span class="button__inner">
+                Пройти тестирование
+                <img class="button__arrow-big" src="img/arrow-big.svg" alt="" aria-hidden="true" width="13" height="13">
+              </span>
+            </button>
+          </div>
         </div>
       </div>
     </div>
-  </header>
+  </div>
 
   <script src="js/main.js"></script>
 </body>
